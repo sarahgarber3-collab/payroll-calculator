@@ -7,8 +7,8 @@ public class App {
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter your name here: ");
-        scanner.nextLine();
-        String name = "Sarah";
+
+        String name = scanner.nextLine();
 
         System.out.print("Enter hours worked: ");
         float hours = scanner.nextFloat();
